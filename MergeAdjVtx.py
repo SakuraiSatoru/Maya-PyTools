@@ -70,7 +70,7 @@ def main():
         count += 1
         cmds.select(cl = True)
     
-    
+
 
 def disCal(p1,p2):
     disX = float(cmds.pointPosition(p1)[0])-float(cmds.pointPosition(p2)[0])
